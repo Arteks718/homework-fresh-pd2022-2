@@ -1,0 +1,102 @@
+h1 {
+  text-align: center;
+  margin: 50px 0;
+}
+legend {
+  font-size: 20pt;
+}
+select {
+  width: 125px;
+}
+#price {
+  margin: 0;
+}
+/*datalist of price*/
+datalist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 175px;
+}
+option {
+  padding: 0;
+}
+input[type="range"] {
+  position: static;
+  width: 175px;
+  margin: 0;
+}
+/*flexbox*/
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.flex-container-row {
+  display: flex;
+}
+.flex-sub-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 12px 0;
+}
+.flex-sub-item textarea{
+  margin-left: 20px;
+}
+#input-checkbox {
+  width: 100px;
+}
+.flex-button {
+  margin: 25px 0;
+}
+.flex-button button {
+  width: 75px;
+  font-size: 14pt;
+  margin: 0 10px;
+}
+
+/* .flex-row {
+  display: flex;
+  flex-direction: row;
+}
+.flex-item {
+  height: 260px;
+}
+.flex-item label {
+  display: inline-block;
+  margin: 10px 0;
+  font-size: 14pt;
+}
+.flex-item input,
+.flex-item textarea,
+.flex-item select {
+  position: sticky;
+  left: 100%;
+}
+.flex-item input[type="checkbox"] {
+  position: static;
+}
+.flex-item input[type="radio"] {
+  position: static;
+  display: inline;
+}
+
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.text-area {
+  display: flex;
+  flex-direction: row;
+}
+.text-area textarea {
+  margin: 10px 0 0 30px;
+}
+.text-area label {
+  padding: 7px 0;
+  align-self: center;
+}
+*/

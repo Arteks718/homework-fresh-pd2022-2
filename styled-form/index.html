@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Styled-Form</title>
+  </head>
+  <body>
+    <main>
+      <h1>Home work for CSS flexbox</h1>
+      <form action="" class="flex-container">
+        <div class="flex-container-row">
+          <fieldset class="flex-item">
+            <legend>Personal info</legend>
+            <div class="flex-sub-item">
+              <label for="first" id="lb-first">First Name</label>
+              <input type="text" name="first" />
+            </div>
+            <div class="flex-sub-item">
+              <label for="last">Last Name</label>
+              <input type="text" name="last" />
+            </div>
+            <div class="flex-sub-item">
+              <label for="birthday">Birthday</label>
+              <input id="party" type="datetime-local" name="partydate" />
+            </div>
+
+            <div class="flex-sub-item">
+              <label for="gender">Gender</label>
+              <div>
+                <label for="">Male</label>
+                <input type="radio" name="gender" id="" />
+              </div>
+              <div>
+                <label for="">Female</label>
+                <input type="radio" name="gender" id="" />
+              </div>
+            </div>
+            <div class="flex-sub-item">
+              <label for="drive">Drive experience</label>
+              <select name="drive" id="">
+                <option value="1" selected disabled>---</option>
+                <option value="2">expert</option>
+                <option value="3">more than 10</option>
+                <option value="4">5-10</option>
+                <option value="5">2-5</option>
+                <option value="6">less than 2</option>
+                <option value="7">beginner</option>
+              </select>
+            </div>
+          </fieldset>
+          <fieldset class="flex-item">
+            <legend>Contacts</legend>
+            <div class="flex-sub-item">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="" />
+            </div>
+
+            <div class="flex-sub-item">
+              <label for="phone">Phone</label>
+              <input type="number" name="phone" id="" />
+            </div>
+            <div class="flex-sub-item">
+              <label for="address">Address</label>
+              <textarea name="address" id="" cols="21" rows="2"></textarea>
+            </div>
+          </fieldset>
+          <fieldset class="flex-item">
+            <legend>Car info</legend>
+            <div class="flex-sub-item">
+              <label for="brand">Brand</label>
+              <select name="brand" id="">
+                <option value="1" selected disabled>---</option>
+                <option value="2">Ford</option>
+                <option value="3">Toyota</option>
+                <option value="4">BMW</option>
+              </select>
+            </div>
+
+            <div class="flex-sub-item">
+              <label for="model">Model</label>
+              <select name="model" id="">
+                <option value="1" selected disabled>---</option>
+                <option value="2">Mondeo 4</option>
+                <option value="3">Fiesta 1.0</option>
+                <option value="4">RAV 4</option>
+                <option value="5">Camry</option>
+                <option value="6">X5</option>
+                <option value="7">i4</option>
+              </select>
+            </div>
+            <div class="flex-sub-item" id="input-checkbox">
+              <label for="used">Used</label>
+              <input type="checkbox" name="used" id="" />
+            </div>
+
+            <label for="color">Red</label>
+            <input type="radio" name="color" id="" />
+            <label for="color">Black</label>
+            <input type="radio" name="color" id="" />
+            <label for="color">Blue</label>
+            <input type="radio" name="color" id="" />
+            <label for="color">White</label>
+            <input type="radio" name="color" id="" />
+            <label for="color">Grey</label>
+            <input type="radio" name="color" id="" />
+            <p id="price">Price</p>
+            <input
+              type="range"
+              name="used"
+              id="price"
+              min="10"
+              max="80"
+              step="10"
+              list="money"
+            />
+            <datalist id="money">
+              <option value="10">10</option>
+              <option value="20">20</option>
+              <option value="30">30</option>
+              <option value="40">40</option>
+              <option value="50">50</option>
+              <option value="60">60</option>
+              <option value="70">70</option>
+              <option value="80">80</option>
+            </datalist>
+          </fieldset>
+        </div>
+        <div class="flex-button">
+          <button>Cancel</button>
+          <button>Ok</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
